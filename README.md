@@ -4,27 +4,14 @@ Source code for demo_math_ops Python package that provides basic math operations
 https://pypi.org/project/demo-math-ops
 
 
-## Create Wheel & Source Distribution files
+## Install the Package from local file Sources
 1. Clone the repo.
 ```sh
 $ git clone https://github.com/rahg0/python-math-ops-package.git
 $ cd python-math-ops-package
 ```
 
-2. Install the tools setuptools, wheel, and twine needed to build & upload package.
-```sh
-$ pip install setuptools wheel twine
-```
-
-3. Build the distribution files.
-```sh
-$ python setup.py sdist bdist_wheel
-```
-
-4. Source distribution (**.tar.gz**) and Wheel file (**.whl**) will be placed under **`dist/`** directory.
-
-
-## Install the Package from Local Package Source
+2. Install the package locally.
 ```sh
 $ pip install .
 
@@ -38,6 +25,7 @@ $ pip show demo_math_ops
 from demo_math_ops import addition_module, subtraction_module, multiplication_module, division_module
 ```
 OR
+
 ```py
 from demo_math_ops import add, sub, mult, div
 ```
@@ -63,6 +51,27 @@ Subtracting 5 from 3 results in 2
 Multiplying 5 by 3 equals 15
 Dividing 5 by 3 gives 1.6666666666666667
 ```
+
+
+## Create Wheel & Source Distribution files
+1. Clone the repo.
+```sh
+$ git clone https://github.com/rahg0/python-math-ops-package.git
+$ cd python-math-ops-package
+```
+
+2. Install the tools setuptools, wheel, and twine needed to build & upload package.
+```sh
+$ pip install setuptools wheel twine
+```
+
+3. Build the distribution files.
+```sh
+$ python setup.py sdist bdist_wheel
+```
+
+4. Source distribution (**.tar.gz**) and Wheel file (**.whl**) will be placed under **`dist/`** directory.
+
 
 ## Upload the Package to PyPi (Optional)
 ```sh
