@@ -1,4 +1,4 @@
-# All Math Ops
+# Demo Math Ops
 
 Source code for demo_math_ops Python package that provides basic math operations.
 https://pypi.org/project/demo-math-ops
