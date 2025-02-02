@@ -1,6 +1,8 @@
 # All Math Ops
 
-This is a simple Python package that provides basic math operations.
+Source code for demo_math_ops Python package that provides basic math operations.
+https://pypi.org/project/demo-math-ops
+
 ## Install
 ```
 $ pip install demo_math_ops
